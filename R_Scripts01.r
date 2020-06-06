@@ -30,4 +30,6 @@ ch05dataGroups<-ch05data[6:12]
 ch05dataGroups[ch05dataGroups=="0"]<-NA
 #The below line of code uses the apriori algorithm, the code is basically saying that 
 # we want at least 2 groups of association with a support of 20% and a confidence percent of 50
-ch05rules<-apriori(ch05dataGroups, parameter = list(minlength=2, supp=0.2,conf=0.5))
+ch05rules<-apriori(ch05dataGroups, parameter = list(minlen=2, supp=0.2,conf=0.5))
+#Now I want to see the rules I stored in the object I created.
+inspect(ch05rules)
