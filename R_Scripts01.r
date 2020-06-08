@@ -1,3 +1,4 @@
+# the data this script was used to manipulate came from Matt Norths 'Data Mining for the Masses' 3rd edition all of which can be found at https://sites.google.com/site/dataminingforthemasses3e/
 #loading libraries
 library(psych) 
 library(MASS)
