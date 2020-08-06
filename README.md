@@ -1,1 +1,1 @@
-This repository is meant to show what skills I have in the R programming language. 
+This repository is meant to show what skills I have in the R programming language. The commits labelled 1-15 show basic skills with basic statistical models (basic linear regression models, etc.) data manipulation (like indexing and other ways to clean data).
